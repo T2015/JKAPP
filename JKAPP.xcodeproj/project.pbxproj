@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048DD5E1245280F700359EB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DD5E0245280F700359EB7 /* AppDelegate.m */; };
+		048DD5EA245280F700359EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048DD5E8245280F700359EB7 /* Main.storyboard */; };
+		048DD5EC245280F900359EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048DD5EB245280F900359EB7 /* Assets.xcassets */; };
+		048DD5EF245280F900359EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048DD5ED245280F900359EB7 /* LaunchScreen.storyboard */; };
+		048DD5F2245280F900359EB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DD5F1245280F900359EB7 /* main.m */; };
+		048DD6462452873100359EB7 /* JKRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048DD6452452873100359EB7 /* JKRootController.m */; };
+		48C45DC97DEE23B097B5B1AF /* libPods-JKAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7639BC406809B36F310C543D /* libPods-JKAPP.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		048DD5DC245280F700359EB7 /* JKAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048DD5DF245280F700359EB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		048DD5E0245280F700359EB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		048DD5E9245280F700359EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		048DD5EB245280F900359EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		048DD5EE245280F900359EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		048DD5F0245280F900359EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048DD5F1245280F900359EB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048DD6442452873100359EB7 /* JKRootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKRootController.h; sourceTree = "<group>"; };
+		048DD6452452873100359EB7 /* JKRootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRootController.m; sourceTree = "<group>"; };
+		2A1F63D38C11A87E33B93CEE /* Pods-JKAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKAPP.release.xcconfig"; path = "Target Support Files/Pods-JKAPP/Pods-JKAPP.release.xcconfig"; sourceTree = "<group>"; };
+		7639BC406809B36F310C543D /* libPods-JKAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797844614281971ECB61AA73 /* Pods-JKAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKAPP.debug.xcconfig"; path = "Target Support Files/Pods-JKAPP/Pods-JKAPP.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		048DD5D9245280F700359EB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C45DC97DEE23B097B5B1AF /* libPods-JKAPP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048DD5D3245280F700359EB7 = {
+			isa = PBXGroup;
+			children = (
+				048DD5DE245280F700359EB7 /* JKAPP */,
+				048DD5DD245280F700359EB7 /* Products */,
+				9AE94EE49CBC654834EDC37D /* Pods */,
+				44E4E3E0C498242F3724EB55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		048DD5DD245280F700359EB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048DD5DC245280F700359EB7 /* JKAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048DD5DE245280F700359EB7 /* JKAPP */ = {
+			isa = PBXGroup;
+			children = (
+				048DD5DF245280F700359EB7 /* AppDelegate.h */,
+				048DD5E0245280F700359EB7 /* AppDelegate.m */,
+				048DD6442452873100359EB7 /* JKRootController.h */,
+				048DD6452452873100359EB7 /* JKRootController.m */,
+				048DD5E8245280F700359EB7 /* Main.storyboard */,
+				048DD5EB245280F900359EB7 /* Assets.xcassets */,
+				048DD5ED245280F900359EB7 /* LaunchScreen.storyboard */,
+				048DD5F0245280F900359EB7 /* Info.plist */,
+				048DD5F1245280F900359EB7 /* main.m */,
+			);
+			path = JKAPP;
+			sourceTree = "<group>";
+		};
+		44E4E3E0C498242F3724EB55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7639BC406809B36F310C543D /* libPods-JKAPP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AE94EE49CBC654834EDC37D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				797844614281971ECB61AA73 /* Pods-JKAPP.debug.xcconfig */,
+				2A1F63D38C11A87E33B93CEE /* Pods-JKAPP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048DD5DB245280F700359EB7 /* JKAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048DD5F5245280F900359EB7 /* Build configuration list for PBXNativeTarget "JKAPP" */;
+			buildPhases = (
+				7A1799AC2F4EF842544A1A21 /* [CP] Check Pods Manifest.lock */,
+				048DD5D8245280F700359EB7 /* Sources */,
+				048DD5D9245280F700359EB7 /* Frameworks */,
+				048DD5DA245280F700359EB7 /* Resources */,
+				C33D9B16DE674A89AD2786C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKAPP;
+			productName = JKAPP;
+			productReference = 048DD5DC245280F700359EB7 /* JKAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048DD5D4245280F700359EB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Junky;
+				TargetAttributes = {
+					048DD5DB245280F700359EB7 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 048DD5D7245280F700359EB7 /* Build configuration list for PBXProject "JKAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048DD5D3245280F700359EB7;
+			productRefGroup = 048DD5DD245280F700359EB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048DD5DB245280F700359EB7 /* JKAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		048DD5DA245280F700359EB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DD5EF245280F900359EB7 /* LaunchScreen.storyboard in Resources */,
+				048DD5EC245280F900359EB7 /* Assets.xcassets in Resources */,
+				048DD5EA245280F700359EB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A1799AC2F4EF842544A1A21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JKAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C33D9B16DE674A89AD2786C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JKAPP/Pods-JKAPP-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JKAPP/Pods-JKAPP-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JKAPP/Pods-JKAPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048DD5D8245280F700359EB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048DD6462452873100359EB7 /* JKRootController.m in Sources */,
+				048DD5E1245280F700359EB7 /* AppDelegate.m in Sources */,
+				048DD5F2245280F900359EB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		048DD5E8245280F700359EB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048DD5E9245280F700359EB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		048DD5ED245280F900359EB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				048DD5EE245280F900359EB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		048DD5F3245280F900359EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		048DD5F4245280F900359EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048DD5F6245280F900359EB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797844614281971ECB61AA73 /* Pods-JKAPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3773VTL4LC;
+				INFOPLIST_FILE = JKAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tang.JKApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		048DD5F7245280F900359EB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A1F63D38C11A87E33B93CEE /* Pods-JKAPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3773VTL4LC;
+				INFOPLIST_FILE = JKAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tang.JKApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		048DD5D7245280F700359EB7 /* Build configuration list for PBXProject "JKAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048DD5F3245280F900359EB7 /* Debug */,
+				048DD5F4245280F900359EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048DD5F5245280F900359EB7 /* Build configuration list for PBXNativeTarget "JKAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048DD5F6245280F900359EB7 /* Debug */,
+				048DD5F7245280F900359EB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048DD5D4245280F700359EB7 /* Project object */;
+}

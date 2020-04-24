@@ -1,0 +1,89 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
+  - CTMediator (31)
+  - JKAppKit (0.0.1):
+    - JKBaseKit
+    - JKMediator
+  - JKBaseKit (0.0.1):
+    - AFNetworking
+    - CocoaLumberjack
+    - Masonry
+    - MBProgressHUD
+    - SAMKeychain
+    - YYModel
+  - JKMediator (0.0.1):
+    - CTMediator
+  - JKToolsComponent (0.0.1):
+    - JKAppKit
+    - JKMediator
+  - JKUIComponent (0.0.1):
+    - JKAppKit
+    - JKMediator
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - SAMKeychain (1.5.3)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - JKAppKit (from `../JKAppKit/`)
+  - JKBaseKit (from `../JKBaseKit/`)
+  - JKMediator (from `../JKMediator/`)
+  - JKToolsComponent (from `../JKToolsComponent/`)
+  - JKUIComponent (from `../JKUIComponent/`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - CocoaLumberjack
+    - CTMediator
+    - Masonry
+    - MBProgressHUD
+    - SAMKeychain
+    - YYModel
+
+EXTERNAL SOURCES:
+  JKAppKit:
+    :path: "../JKAppKit/"
+  JKBaseKit:
+    :path: "../JKBaseKit/"
+  JKMediator:
+    :path: "../JKMediator/"
+  JKToolsComponent:
+    :path: "../JKToolsComponent/"
+  JKUIComponent:
+    :path: "../JKUIComponent/"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
+  CTMediator: 24a1279bd0909608c7d6a704e660149cc64e5f87
+  JKAppKit: 0bdf97bd4830b2a5a634b2e27231f91708cdb4c2
+  JKBaseKit: 671c37f09850d64bff2d73aef37cfe0aa26020c3
+  JKMediator: 02c06e5bf66248d72f67af1b3bf31e19dffd7e02
+  JKToolsComponent: b719e0019927a25f5257914a99663a582d403b9a
+  JKUIComponent: 3db480a62586f4514d19dbf569902f7223427f8c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 7951159c2fa15a2e7f2e8cc198c18548d82d24bd
+
+COCOAPODS: 1.9.1
